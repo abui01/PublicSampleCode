@@ -26,7 +26,7 @@ public class YourShoppingCartPage extends BasePage{
 		WebElement pageHeaderElem = myLib.fluentWait(By.tagName("h1"));
 		System.out.println("text: " + pageHeaderElem.getText());
 		System.out.println("Fixed the Test");
-		System.out.println("Fixed the Test again!");
+		System.out.println("I am Dev 2");
 		assertEquals("Your Shopping Cart", pageHeaderElem.getText());		
 	}
 	
