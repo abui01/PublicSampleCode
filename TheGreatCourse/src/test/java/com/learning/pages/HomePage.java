@@ -13,7 +13,7 @@ public class HomePage extends BasePage{
 	public HomePage goto_theGreatCourseWebsite()
 	{
 		driver.get(homepageURL);
-		System.out.println("Page Title: '" + driver.getTitle() + "'");	
+		System.out.println("Page Title is: '" + driver.getTitle() + "'");	
 		assertEquals("Online Courses & Lectures for Home Study and Lifelong Learning", driver.getTitle());
 		return this;
 	}
